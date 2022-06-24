@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name = "theme-color" content = "#182526">
+    <meta content="#182526" name="theme-color"/> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="#182526">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
+    <!-- STYLE -->
+    <link rel="stylesheet" id="linkMode" >
+</head>
+<body onload="loginLoad()">
+    <div class="container-fluid vh-100 d-flex justify-content-center main">
+        <div class="mt-auto mb-auto formDiv p-3 rounded">
+            <form id="formLogin" autocomplete="off">
+                <div class="mb-3 text-center">
+                    <h1 class="display-1 text-secondary hfinger ms-auto me-auto"><i class="fas fa-fingerprint"></i></h1>
+                </div>
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                    <input type="email" id="email" class="form-control" autofocus onkeypress="IsEmail(this.value)">
+                    <label class="form-label" for="email">E-mail</label>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4 d-none" id="divPwd">
+                    <input type="password" id="password" class="form-control" onkeypress="IsPassword(this.value)">
+                    <label class="form-label" for="password">Mot de passe</label>
+                </div>
+
+                <!-- 2 column grid layout for inline styling -->
+                <div class="row mb-4 d-none" id="divCheck">
+                    <div class="col d-flex justify-content-start">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="imAgree" onchange="isAgree()">
+                            <label class="form-check-label" for="imAgree">je suis conscient </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="mb-3 text-center d-none" id="divLogin">
+                    <a href="home.html" class="btn btn-primary">Connexion <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+    <!-- SCRIPT -->
+    <script src="assets/js/darkMode.js"></script>
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+
+    </script>
+</body>
+</html>
