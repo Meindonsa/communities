@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#182526">
+    <meta content="#182526" name="theme-color" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#182526">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <title>Document</title>
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet" />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="assets/css/design.css">
+    <link rel="stylesheet" id="linkMode">
+    <!-- RESPONSIVE STYLE -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- ================================================ -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="headeNavBar">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                    <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo" loading="lazy" />
+                </a>
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="community.html">Communauté</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <!-- Icon -->
+                <a class="text-reset mx-3" href="#">
+                    <i class="fas fa-comment"></i>
+                </a>
+
+                <!-- Notifications -->
+                <div class="dropdown">
+                    <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Some news</a></li>
+                        <li><a class="dropdown-item" href="#">Another news</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+                <!-- Avatar -->
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li><a class="dropdown-item" href="#">My profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- MOBILE HEAD -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="mobilHead">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <a class="navbar-brand mt-3 mt-lg-0" href="#"><img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo" loading="lazy" /></a>
+            <form class="d-flex input-group w-auto d-none" id="formSearchHead">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon"/>
+            </form>
+
+            <div class="d-flex align-items-center">
+                <div class="dropdown">
+                    <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="25" alt="Black and White Portrait of a Man" loading="lazy" />
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                        <li><a class="dropdown-item" href="#">My profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- MOBILE HEAD -->
+    <!-- ================================================ -->
+    <div class="clearfix"></div>
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Boris Axel</h2>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+
+    <section id="sectionMembers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <img src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/24/610303c46ec47-bpfull.jpg" alt="" class="img-fluid rounded-circle" width="200">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ebaneth Johan Boris Axel</h5>
+                                <p class="card-text text-center"><small>Web designer & infographiste</small></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-8 mb-3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <img src="https://3wqs8fylqej40grcv31kcqxj-wpengine.netdna-ssl.com/wp-content/uploads/avatars/12/61029b054c371-bpfull.jpg" alt="" class="img-fluid rounded-circle" width="200">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ebaneth Johan Boris Axel</h5>
+                                <p class="card-text text-center"><small>Web designer & infographiste</small></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix mt-5"></div>
+    <!-- ================================================ -->
+    <!-- BOTTOM NAVIGATION -->
+    <div id="divbotom" class="container-fluid d-flex justify-content-center fixed-bottom">
+        <ul class="nav justify-content-between py-1 rounded w-100" id="bottomNavigation">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="ex1-tab-1" href="./home.html"><i class="fas fa-home fa-fw me-2"></i></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="ex1-tab-2" href="./community.html"><i class="fas fa-users fa-fw me-2"></i></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="ex1-tab-2" href="#"><i class="fas fa-comment fa-fw me-2"></i></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link notifi" id="ex1-tab-2" href="#"><i class="fas fa-bell fa-fw me-2"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!-- BOTTOM NAVIGATION -->
+    <!-- ================================================ -->
+
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
+    <!-- SCRIPT -->
+    <script src="assets/js/darkMode.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/functions.js"></script>
+
+</html>

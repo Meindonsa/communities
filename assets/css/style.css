@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 50%);
+}
+.formDiv{
+    background-color: rgba(255,255,255, .8);
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .formDiv{
+        width: 100%;
+    }
+}
+.hfinger{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formLogin .form-control{
+    color: #000;
+}
+#formLogin .form-label,.form-check-label{
+    color: #000;
+}
+
+
+#header{
+    background-color: #F9F9F9;
+}
+
+#search-addon{
+    z-index: 1;
+    margin-left: -35px;
+}
+
+#bottomNavigation{
+    background-color: #385359;
+    margin-bottom: 5px;
+}
+#bottomNavigation li a{
+    color: #72A1A6;
+}
+#bottomNavigation li .active{
+    color: #fff;
+}
+#bottomNavigation li .active i{
+    transform: rotate(30deg);
+}
+
+#bottomNavigation li .notifi i{
+    transform: rotate(30deg);
+    animation: notif .8s infinite;
+}
+@keyframes notif {
+    to{
+        color: #fff;
+        text-shadow:0px 0px 20px #D9D9D9;
+        transform: rotate(20deg);
+    }
+}
+
+
+/*================================*/
+#sectionMembers .card-body{
+    color: #000;
+}
+#sectionMembers .card-body:hover{
+    color: #F29F05;
+    transition: .3s;
+}

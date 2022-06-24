@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 50%, rgba(0,212,255,1) 50%);
+}
+.formDiv{
+    background-color: rgba(0,0,0, .5);
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .formDiv{
+        width: 100%;
+    }
+}
+
+.hfinger{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#formLogin .form-control{
+    color: #fff;
+}
+#formLogin .form-label,.form-check-label{
+    color: #fff;
+}
+
+
+
+#header{
+    background-color: #182526;
+}
+
+
+
+#bottomNavigation{
+    background-color: #182526;
+    margin-bottom: 5px;
+}
+#bottomNavigation li a{
+    color: #72A1A6;
+}
+#bottomNavigation li .active{
+    color: #fff;
+}
+
+
+
+.mainpage .card{
+    background-color: rgb(43, 43, 43);
+}
+.mainpage .card .card-header{
+    color: #f1f1f1;
+}
